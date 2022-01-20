@@ -5,8 +5,6 @@ import MenuItem from './MenuItem';
 const MenuContainer = () => {
   const [toggle, setToggle] = useState(true);
 
-  console.log(toggle);
-
   return (
     <div className='w-1/5 h-auto my-5 lg:ml-5 mr-0 lg:px-6'>
       <div className='flex items-center border-b border-gray-400 py-2 px-2'>

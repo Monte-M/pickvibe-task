@@ -14,7 +14,7 @@ const List = () => {
       </div>
       <div className='flex lg:block justify-center flex-wrap'>
         {[...Array(n)].map((e, i) => (
-          <SingleItem key={i}>fa-star</SingleItem>
+          <SingleItem key={i} />
         ))}
       </div>
 
