@@ -15,6 +15,7 @@ const DashboardMenu = () => {
         />
         <i className='fa fa-search absolute sm:right-24 right-16 text-gray-500'></i>
         <i className='fa fa-bell-o mx-5'></i>
+        <div className='h-2 w-2 bg-red-600 absolute sm:right-12 mb-3 right-5  rounded-full'></div>
         <div className='hidden sm:flex items-center'>
           <Image
             className='rounded-full'

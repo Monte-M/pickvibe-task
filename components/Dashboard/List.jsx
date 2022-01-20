@@ -2,7 +2,7 @@ import Pagination from './Pagination';
 import SingleItem from './SingleItem';
 
 const List = () => {
-  const n = 4;
+  const n = 10;
   return (
     <div>
       <div className='hidden justify-between ml-2 mr-10 text-sm font-bold text-gray-700 mt-4 lg:flex'>

@@ -31,10 +31,10 @@ const MenuContainer = () => {
         </h1>
       </div>
       <div
-        className='px-2 py-3 flex items-center'
+        className='px-2 py-3 flex items-center cursor-pointer'
         onClick={() => setToggle(!toggle)}
       >
-        <div className='hidden sm:block'>
+        <div className='hidden sm:flex items-center'>
           <Image
             src='/img/icons/box.png'
             width={20}
@@ -42,9 +42,14 @@ const MenuContainer = () => {
             alt='box-img'
           />
         </div>
-
-        <h4 className='lg:ml-4 ml-1 text-white text-sm'>Menu item </h4>
-        <i className='fa fa-angle-up text-white text-sm lg:ml-16 ml-1'></i>
+        <div className='flex justify-between w-full'>
+          <h4 className='lg:ml-4 ml-1 text-white text-sm'>Menu item </h4>
+          {toggle ? (
+            <i className='fa fa-angle-up text-white text-sm ml-1'></i>
+          ) : (
+            <i className='fa fa-angle-down text-white text-sm ml-1'></i>
+          )}
+        </div>
       </div>
       {toggle && (
         <div className='bg-blue-900 rounded-sm'>
