@@ -10,7 +10,7 @@ const DashboardMenu = () => {
       </div>
       <div className='flex items-center relative'>
         <input
-          className='bg-gray-300 w-44 rounded-3xl py-1 px-3 pr-8'
+          className='bg-gray-300 w-44 rounded-3xl py-1 px-3 pr-8 text-sm'
           placeholder='Search...'
         />
         <i className='fa fa-search absolute right-24 text-gray-500'></i>
