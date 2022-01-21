@@ -7,7 +7,7 @@ const MenuContainer = () => {
 
   return (
     <div className='w-1/5 h-auto my-5 lg:ml-5 mr-0 lg:px-6'>
-      <div className='flex items-center border-b border-gray-400 py-2 px-2'>
+      <div className='flex items-center border-b border-gray-500 py-2 px-2'>
         <div className='hidden sm:block'>
           <Image
             src='/img/icons/adminIcon.png'

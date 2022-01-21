@@ -1,6 +1,6 @@
 const Pagination = () => {
   return (
-    <div className='flex lg:w-1/4 justify-between my-5'>
+    <div className='flex lg:w-1/4 lg:px-0 justify-between my-5 sm:px-20 px-4'>
       <i className='fa fa-angle-double-left py-1'></i>
       <i className='fa fa-angle-left py-1'></i>
       <p className='py-1 text-sm'>...</p>

@@ -1,8 +1,9 @@
 import Pagination from './Pagination';
 import SingleItem from './SingleItem';
 
+import data from '../../utils/data';
+
 const List = () => {
-  const n = 10;
   return (
     <div>
       <div className='hidden justify-between ml-2 mr-10 text-sm font-bold text-gray-700 mt-4 lg:flex'>
@@ -13,8 +14,8 @@ const List = () => {
         <h5>ACTIONS</h5>
       </div>
       <div className='flex lg:block justify-center flex-wrap'>
-        {[...Array(n)].map((e, i) => (
-          <SingleItem key={i} />
+        {data.map((item) => (
+          <SingleItem key={item.id} item={item} />
         ))}
       </div>
 
