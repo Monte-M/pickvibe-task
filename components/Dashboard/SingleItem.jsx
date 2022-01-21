@@ -40,12 +40,12 @@ const SingleItem = ({ item }) => {
         <h2 className='text-xs font-bold'>{item.stock}</h2>
       </div>
       {item.status == 'Active' ? (
-        <div className='text-red-500 flex lg:w-24 lg:pl-1'>
+        <div className='text-red-500 flex lg:w-24 lg:pl-1 my-1'>
           <i className='fa fa-check-square-o mr-2'></i>
           <h2 className='text-xs text-red-500'>Active</h2>
         </div>
       ) : (
-        <div className='text-green-400 flex lg:w-24 lg:pl-1'>
+        <div className='text-green-400 flex lg:w-24 lg:pl-1 my-1'>
           <i className='fa fa-square-o mr-2'></i>
           <h2 className='text-xs text-green-400'>Inactive</h2>
         </div>
